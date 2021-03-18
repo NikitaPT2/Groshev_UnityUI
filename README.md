@@ -3,11 +3,11 @@
 - [x]	Izveidot projektu GitHub'ā
 - [x]	Sinhronizēt projektu ar savu datoru
 - [x]	Izveidot unity projektu
-- [ ]	Pielietojot teksta ievades laukus (2.gab.) 
-- [ ]	Pielietojot izkrītošā saraksta pogu
-- [ ]	Izveidotas vairākas apģērbu un aprīkojuma kategorijas
-- [ ]	Izvēlēto aprīkojumu iespējams pārvietot un nolikt izvēlētajā vietā
-- [ ]	Nodrošināti skaņas efekti
-- [ ]	Ievietota scroll view komponente
-- [ ]	Iekļauti divi slider elementi
-- [ ]	Sinhronizēt projektu ar GutHub
+- [x]	Pielietot teksta ievades laukus (2.gab.) 
+- [x]	Pielietot izkrītošā saraksta pogu
+- [x]	Izveidotas vairākas apģērbu un aprīkojuma kategorijas
+- [x]	Izvēlēto aprīkojumu iespējams pārvietot un nolikt izvēlētajā vietā
+- [x]	Nodrošināti skaņas efekti
+- [x]	Ievietota scroll view komponente
+- [x]	Iekļauti divi slider elementi
+- [x]	Sinhronizēt projektu ar GutHub

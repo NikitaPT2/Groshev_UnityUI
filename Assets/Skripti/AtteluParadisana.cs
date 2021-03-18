@@ -10,6 +10,10 @@ public class AtteluParadisana : MonoBehaviour
     public GameObject head;
     public GameObject mainigaisAttels;
     public Sprite[] atteluMasivs;
+    public GameObject slaideris;
+    public GameObject slaideris2;
+    public float x;
+    public float y;
 
     public void petsAttelosana(bool vertiba)
     {
@@ -36,5 +40,24 @@ public class AtteluParadisana : MonoBehaviour
             mainigaisAttels.GetComponent<Image>().sprite = atteluMasivs[1];
 
         }
+    }
+    public void fandx()
+    {
+        float pasreizejaVertiba = slaideris.GetComponent<Slider>().value;
+        x = 1F * pasreizejaVertiba;
+        float pasreizejaVertiba2 = slaideris2.GetComponent<Slider>().value;
+        y = 1F * pasreizejaVertiba2;
+    }
+    public void mainitLielumu()
+    {
+        fandx();
+        mainigaisAttels.transform.localScale = new Vector2(x, y);
+    }
+
+    public void mainitLielumu2()
+    {
+        fandx();
+        mainigaisAttels.transform.localScale = new Vector2(x, y);
+
     }
 }
