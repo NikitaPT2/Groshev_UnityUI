@@ -8,6 +8,8 @@ public class AtteluParadisana : MonoBehaviour
     public GameObject pets;
     public GameObject skin;
     public GameObject head;
+    public GameObject mainigaisAttels;
+    public Sprite[] atteluMasivs;
 
     public void petsAttelosana(bool vertiba)
     {
@@ -22,5 +24,17 @@ public class AtteluParadisana : MonoBehaviour
     public void headAttelosana(bool vertiba)
     {
         head.SetActive(vertiba);
+    }
+    public void izkritosais(int skaitlis){
+        if (skaitlis == 0)
+        {
+            mainigaisAttels.GetComponent<Image>().sprite = atteluMasivs[0];
+
+        }
+        else if (skaitlis == 1)
+        {
+            mainigaisAttels.GetComponent<Image>().sprite = atteluMasivs[1];
+
+        }
     }
 }
