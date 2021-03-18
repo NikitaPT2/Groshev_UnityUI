@@ -11,3 +11,4 @@
 - [x]	Ievietota scroll view komponente
 - [x]	Iekļauti divi slider elementi
 - [x]	Sinhronizēt projektu ar GutHub
+<img src= "https://media.discordapp.net/attachments/822087925885173820/822231943679967232/unknown.png">
